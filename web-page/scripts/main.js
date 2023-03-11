@@ -3,10 +3,10 @@ let myImage = document.querySelector('img');
 
 myImage.onclick = function() {
   let mySrc = myImage.getAttribute('src');
-  if(mySrc === 'C:/Users/Toshiba/JohnlennyCodingFolder/web-page/images/kobe.jpg') {
-    myImage.setAttribute ('src','C:/Users/Toshiba/JohnlennyCodingFolder/web-page/images/kobe2.jpg');
+  if(mySrc === 'https://upload.wikimedia.org/wikipedia/commons/5/56/Kobe_Bryant_2014.jpg') {
+    myImage.setAttribute ('src','https://upload.wikimedia.org/wikipedia/commons/9/96/Kobe_Bryant_8.jpg');
   } else {
-    myImage.setAttribute ('src','C:/Users/Toshiba/JohnlennyCodingFolder/web-page/images/kobe.jpg');
+    myImage.setAttribute ('src','https://upload.wikimedia.org/wikipedia/commons/5/56/Kobe_Bryant_2014.jpgg');
   }
 }
 
