@@ -4,7 +4,7 @@ let myImage = document.querySelector('img');
 myImage.onclick = function() {
   let mySrc = myImage.getAttribute('src');
   if(mySrc === 'https://upload.wikimedia.org/wikipedia/commons/5/56/Kobe_Bryant_2014.jpg') {
-    myImage.setAttribute ('src','https://www.foodista.com/sites/default/files/styles/featured/public/field/image/kobe%20bryant_0.jpg');
+    myImage.setAttribute ('src','https://upload.wikimedia.org/wikipedia/commons/e/e0/Lipofsky_Kobe.jpg');
   } else {
     myImage.setAttribute ('src','https://upload.wikimedia.org/wikipedia/commons/5/56/Kobe_Bryant_2014.jpg');
   }
